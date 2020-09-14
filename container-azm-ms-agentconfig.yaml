@@ -50,7 +50,7 @@ data:
         #fieldpass = ["metric_to_pass1", "metric_to_pass12"]
         #fielddrop = ["metric_to_drop"]
         # An array of urls to scrape metrics from.
-        urls = ["http://10.244.0.12:8091/actuator/prometheus", "http://10.244.0.13:8091/actuator/prometheus"]
+        urls = ["http://51.138.32.180:8080/actuator/prometheus"]
         # An array of Kubernetes services to scrape metrics from.
         # kubernetes_services = ["http://my-service-dns.my-namespace:9102/metrics"]
         # When monitor_kubernetes_pods = true, replicaset will scrape Kubernetes pods for the following prometheus annotations:
